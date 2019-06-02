@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.slidelayout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--<activity-->
+            <!--android:name=".sample.FullscreenActivity"-->
+            <!--android:theme="@style/AppTheme.NoActionBar">-->
+        <!--</activity>-->
+        <activity
+            android:name=".sample.ViewPagerActivity"
+            android:theme="@style/SlideTheme" />
+        <activity
+            android:name=".sample.ListViewActivity"
+            android:theme="@style/SlideTheme" />
+        <activity
+            android:name=".sample.RecyclerActivity"
+            android:theme="@style/SlideTheme" />
+        <activity
+            android:name=".sample.ScrollViewActivity"
+            android:theme="@style/SlideTheme" />
+        <activity
+            android:name=".sample.HScrollViewActivity"
+            android:theme="@style/SlideTheme" />
+        <activity
+            android:name=".sample.WebviewActivity"
+            android:theme="@style/SlideTheme" />
+        <activity
+            android:name=".sample.RefreshActivity"
+            android:theme="@style/SlideTheme" />
+        <activity
+            android:name=".sample.TablayoutActivity"
+            android:theme="@style/SlideTheme" />
+        <activity
+            android:name=".sample.InnerScrollActivity"
+            android:theme="@style/SlideTheme" />
+        <activity
+            android:name=".sample.DrawerActivity"
+            android:theme="@style/SlideTheme2" />
+
+    </application>
+
+</manifest>
